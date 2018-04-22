@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/layout_dimen1"
+    android:background="@color/content_text_color"
+    app:dragEdge="right"
+    app:mode="same_level">
+
+    <LinearLayout
+        android:id="@+id/delete_layout"
+        android:layout_width="@dimen/layout_dimen90"
+        android:layout_height="@dimen/layout_dimen120"
+        android:background="#ffcc0000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/layout_dimen30"
+            android:layout_height="@dimen/layout_dimen30"
+            android:src="@drawable/ic_delete"
+            android:tint="@android:color/white" />
+
+        <com.rohit.notely.views.CustomTvRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:text="Delete"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/front_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_dimen120">
+
+        <LinearLayout
+            android:id="@+id/view_forground"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_dimen120"
+            android:layout_centerInParent="true"
+            android:background="@color/background_white">
+
+            <LinearLayout
+                android:id="@+id/main_row"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:orientation="vertical"
+                android:padding="@dimen/layout_dimen20">
+
+                <com.rohit.notely.views.CustomTvBold
+                    android:id="@+id/row_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="And there wa none"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_dimen20"
+                    android:textStyle="bold" />
+
+                <com.rohit.notely.views.CustomTvRegular
+                    android:id="@+id/row_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_dimen5"
+                    android:maxLines="1"
+                    android:text="Heading"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_dimen16" />
+
+                <com.rohit.notely.views.CustomTvRegular
+                    android:id="@+id/row_createdat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_dimen5"
+                    android:maxLines="1"
+                    android:text="Heading"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/text_dimen13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_dimen15">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/layout_dimen30"
+                    android:layout_height="@dimen/layout_dimen30">
+
+                    <ImageView
+                        android:id="@+id/row_starred"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_star_filled"
+                        android:tint="@color/light_grey" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/layout_dimen30"
+                    android:layout_height="@dimen/layout_dimen30"
+                    android:layout_marginLeft="@dimen/layout_dimen10">
+
+                    <ImageView
+                        android:id="@+id/row_hearted"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_heart"
+                        android:tint="@color/light_grey" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

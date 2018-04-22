@@ -1,0 +1,140 @@
+<resources>
+    <dimen name="fab_size_normal">50dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">15dp</dimen>
+
+    <dimen name="fab_plus_icon_size">15dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">0dp</dimen>
+
+    <dimen name="result_progressBar_radius">24.5dp</dimen>
+
+    <!-- Layout generic dimensions -->
+    <dimen name="layout_dimen530">1060dp</dimen>
+    <dimen name="layout_dimen525">1050dp</dimen>
+    <dimen name="layout_dimen500">1000dp</dimen>
+    <dimen name="layout_dimen475">950dp</dimen>
+    <dimen name="layout_dimen450">900dp</dimen>
+    <dimen name="layout_dimen400">800dp</dimen>
+    <dimen name="layout_dimen365">730dp</dimen>
+    <dimen name="layout_dimen375">750dp</dimen>
+    <dimen name="layout_dimen350">700dp</dimen>
+    <dimen name="layout_dimen300">600dp</dimen>
+    <dimen name="layout_dimen280">560dp</dimen>
+    <dimen name="layout_dimen250">500dp</dimen>
+    <dimen name="layout_dimen230">460dp</dimen>
+    <dimen name="layout_dimen215">430dp</dimen>
+    <dimen name="layout_dimen200">400dp</dimen>
+    <dimen name="layout_dimen260">520dp</dimen>
+    <dimen name="layout_dimen220">440dp</dimen>
+    <dimen name="layout_dimen180">360dp</dimen>
+    <dimen name="layout_dimen170">340dp</dimen>
+    <dimen name="layout_dimen150">300dp</dimen>
+    <dimen name="layout_dimen155">310dp</dimen>
+    <dimen name="layout_dimen140">280dp</dimen>
+    <dimen name="layout_dimen130">260dp</dimen>
+    <dimen name="layout_dimen120">240dp</dimen>
+    <dimen name="layout_dimen110">220dp</dimen>
+    <dimen name="layout_dimen105">210dp</dimen>
+    <dimen name="layout_dimen100">200dp</dimen>
+    <dimen name="layout_dimen95">190dp</dimen>
+    <dimen name="layout_dimen91">182dp</dimen>
+    <dimen name="layout_dimen90">180dp</dimen>
+    <dimen name="layout_dimen85">170dp</dimen>
+    <dimen name="layout_dimen80">160dp</dimen>
+    <dimen name="layout_dimen73">146dp</dimen>
+    <dimen name="layout_dimen70">140dp</dimen>
+    <dimen name="layout_dimen67">134dp</dimen>
+    <dimen name="layout_dimen65">130dp</dimen>
+    <dimen name="layout_dimen60">120dp</dimen>
+    <dimen name="layout_dimen58">116dp</dimen>
+    <dimen name="layout_dimen55">110dp</dimen>
+    <dimen name="layout_dimen50">10dp</dimen>
+    <dimen name="layout_dimen45">90dp</dimen>
+    <dimen name="layout_dimen40">80dp</dimen>
+    <dimen name="layout_dimen42">84dp</dimen>
+    <dimen name="layout_dimen35">70dp</dimen>
+    <dimen name="layout_dimen32">64dp</dimen>
+    <dimen name="layout_dimen30">60dp</dimen>
+    <dimen name="layout_dimen28">56dp</dimen>
+    <dimen name="layout_dimen25">50dp</dimen>
+    <dimen name="layout_dimen24">48dp</dimen>
+    <dimen name="layout_dimen20">40dp</dimen>
+    <dimen name="layout_dimen18">36dp</dimen>
+    <dimen name="layout_dimen17">34dp</dimen>
+    <dimen name="layout_dimen16">32dp</dimen>
+    <dimen name="layout_dimen15">30dp</dimen>
+    <dimen name="layout_dimen14">28dp</dimen>
+    <dimen name="layout_dimen13">26dp</dimen>
+    <dimen name="layout_dimen12">24dp</dimen>
+    <dimen name="layout_dimen11">22dp</dimen>
+    <dimen name="layout_dimen10">20dp</dimen>
+    <dimen name="layout_dimen9">18dp</dimen>
+    <dimen name="layout_dimen8">16dp</dimen>
+    <dimen name="layout_dimen7">14dp</dimen>
+    <dimen name="layout_dimen6">12dp</dimen>
+    <dimen name="layout_dimen5">10dp</dimen>
+    <dimen name="layout_dimen4">8dp</dimen>
+    <dimen name="layout_dimen3.5">7dp</dimen>
+    <dimen name="layout_dimen3">6dp</dimen>
+    <dimen name="layout_dimen2.5">5dp</dimen>
+    <dimen name="layout_dimen2">4dp</dimen>
+    <dimen name="layout_dimen1">2dp</dimen>
+    <dimen name="layout_dimen0.8">1.6dp</dimen>
+    <dimen name="layout_dimen0.5">1dp</dimen>
+    <dimen name="layout_dimen0.4">0.8dp</dimen>
+    <dimen name="layout_dimen0.1">0.05dp</dimen>
+    <dimen name="layout_dimen_minus4">-8dp</dimen>
+    <dimen name="layout_dimen_minus8">-16dp</dimen>
+    <dimen name="layout_dimen_minus7">-14dp</dimen>
+    <dimen name="layout_dimen_minus10">-20dp</dimen>
+    <dimen name="layout_dimen_minus15">-30dp</dimen>
+    <dimen name="layout_dimen_minus20">-40dp</dimen>
+    <dimen name="layout_dimen_minus30">-60dp</dimen>
+
+    <!-- TextSize generic dimensions -->
+    <dimen name="text_dimen50">100sp</dimen>
+    <dimen name="text_dimen30">60sp</dimen>
+    <dimen name="text_dimen25">50sp</dimen>
+    <dimen name="text_dimen20">40sp</dimen>
+    <dimen name="text_dimen18">36sp</dimen>
+    <dimen name="text_dimen16">32sp</dimen>
+    <dimen name="text_dimen15">30sp</dimen>
+    <dimen name="text_dimen14">28sp</dimen>
+    <dimen name="text_dimen13">26sp</dimen>
+    <dimen name="text_dimen12">24sp</dimen>
+    <dimen name="text_dimen11">22sp</dimen>
+    <dimen name="text_dimen10">20sp</dimen>
+    <dimen name="text_dimen9">18sp</dimen>
+    <dimen name="text_dimen8">16sp</dimen>
+    <dimen name="text_dimen7">14sp</dimen>
+    <dimen name="text_dimen6">12sp</dimen>
+    <dimen name="text_dimen5">10sp</dimen>
+    <dimen name="layout_dimen145">290dp</dimen>
+    <dimen name="layout_dimen_minus5">-10dp</dimen>
+    <dimen name="layout_dimen75">150dp</dimen>
+    <dimen name="layout_dimen12.5">24.5dp</dimen>
+    <dimen name="layout_dimen14.5">28.5dp</dimen>
+    <dimen name="layout_dimen7px">14px</dimen>
+    <dimen name="layout_dimen5px">10px</dimen>
+    <dimen name="layout_dimen1.5">3dp</dimen>
+    <dimen name="layout_dimen298">590dp</dimen>
+    <dimen name="layout_dimen160">320dp</dimen>
+    <dimen name="text_dimen24">48sp</dimen>
+    <dimen name="text_dimen23">46sp</dimen>
+    <dimen name="layout_dimen36">72dp</dimen>
+    <dimen name="text_dimen40">80sp</dimen>
+    <dimen name="layout_dimen23">46dp</dimen>
+    <dimen name="layout_dimen102">204dp</dimen>
+    <dimen name="layout_dimen210">420dp</dimen>
+    <dimen name="layout_dimen190">380dp</dimen>
+
+</resources>

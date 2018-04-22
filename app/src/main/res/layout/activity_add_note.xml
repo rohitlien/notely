@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_white"
+    tools:context="com.rohit.notely.activity.AddNoteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/appbar_color">
+
+        <ImageView
+            android:layout_width="@dimen/layout_dimen30"
+            android:layout_height="@dimen/layout_dimen30"
+            android:layout_centerVertical="true"
+            android:id="@+id/close_button"
+            android:layout_marginLeft="@dimen/layout_dimen10"
+            android:src="@drawable/ic_arrow_back" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/layout_dimen15">
+
+            <com.rohit.notely.views.CustomTvBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/layout_dimen10"
+                android:paddingRight="@dimen/layout_dimen15"
+                android:text="Undo"
+                android:paddingTop="@dimen/layout_dimen5"
+                android:paddingBottom="@dimen/layout_dimen5"
+                android:id="@+id/undo_button"
+                android:textColor="@color/button_text_color"
+                android:textSize="@dimen/text_dimen15" />
+
+            <com.rohit.notely.views.CustomTvBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/layout_dimen10"
+                android:paddingRight="@dimen/layout_dimen10"
+                android:text="Save"
+                android:paddingTop="@dimen/layout_dimen5"
+                android:paddingBottom="@dimen/layout_dimen5"
+                android:id="@+id/save_button"
+                android:textColor="@color/button_text_color"
+                android:textSize="@dimen/text_dimen15" />
+            <com.rohit.notely.views.CustomTvBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/layout_dimen10"
+                android:paddingRight="@dimen/layout_dimen10"
+                android:text="Edit"
+                android:paddingTop="@dimen/layout_dimen5"
+                android:paddingBottom="@dimen/layout_dimen5"
+                android:visibility="gone"
+                android:id="@+id/edit_button"
+                android:textColor="@color/button_text_color"
+                android:textSize="@dimen/text_dimen15" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:paddingLeft="@dimen/layout_dimen10"
+                android:paddingRight="@dimen/layout_dimen10"
+                android:id="@+id/note_switch_ll"
+                android:layout_height="wrap_content">
+                <com.rohit.notely.views.CustomTvBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/story_txt"
+                    android:text="Story"
+                    android:textSize="@dimen/text_dimen13"
+                    android:textColor="@color/button_text_color"
+                    android:visibility="gone"/>
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingTop="@dimen/layout_dimen5"
+                    android:paddingBottom="@dimen/layout_dimen5"
+                    android:id="@+id/note_switch"
+                    android:paddingLeft="@dimen/layout_dimen5"
+                    android:paddingRight="@dimen/layout_dimen5"/>
+                <com.rohit.notely.views.CustomTvBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Poem"
+                    android:textSize="@dimen/text_dimen13"
+                    android:textColor="@color/button_text_color"
+                    android:id="@+id/poem_txt"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appbar_color"
+            android:orientation="vertical">
+        <com.rohit.notely.views.CustomEditTextBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter heading "
+            android:background="@color/background_white"
+            android:maxLines="2"
+            android:textSize="@dimen/text_dimen30"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/layout_dimen30"
+            android:paddingRight="@dimen/layout_dimen30"
+            android:id="@+id/header_et"
+            android:minHeight="@dimen/layout_dimen70" />
+         <com.rohit.notely.views.CustomTvRegular
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/noteDate"
+             android:text=""
+             android:paddingLeft="@dimen/layout_dimen30"
+             android:paddingRight="@dimen/layout_dimen30"
+             android:visibility="gone"
+             android:textColor="@color/light_grey"
+             android:paddingBottom="@dimen/layout_dimen20"/>
+        </LinearLayout>
+        <com.rohit.notely.views.CustomEditTextRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_dimen18"
+            android:id="@+id/note_et"
+            android:layout_marginLeft="@dimen/layout_dimen30"
+            android:layout_marginRight="@dimen/layout_dimen30"
+            android:background="@color/background_white"
+            android:minHeight="@dimen/layout_dimen100"
+            android:hint="Enter your poem"></com.rohit.notely.views.CustomEditTextRegular>
+    </LinearLayout>
+
+</LinearLayout>

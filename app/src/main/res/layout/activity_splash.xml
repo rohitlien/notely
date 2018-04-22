@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rohit.notely.activity.SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/splash_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <com.rohit.notely.views.CustomTvBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notely"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_dimen50" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4px"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/circle_ll"
+                    android:background="@color/light_grey"></View>
+
+                <LinearLayout
+                    android:id="@+id/circle_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="@dimen/layout_dimen5"
+                        android:layout_height="@dimen/layout_dimen5"
+                        android:layout_marginLeft="@dimen/layout_dimen5"
+                        android:background="@drawable/green_circle_bg"></View>
+
+                    <View
+                        android:layout_width="@dimen/layout_dimen5"
+                        android:layout_height="@dimen/layout_dimen5"
+                        android:layout_marginLeft="@dimen/layout_dimen5"
+                        android:background="@drawable/yellow_circle_bg"></View>
+
+                    <View
+                        android:layout_width="@dimen/layout_dimen5"
+                        android:layout_height="@dimen/layout_dimen5"
+                        android:layout_marginLeft="@dimen/layout_dimen5"
+                        android:background="@drawable/red_circle_bg"></View>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
